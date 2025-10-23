@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif; /*Especifica la familia tipográfica (Arial, sans-serif, etc.).*/
+    color: #041d2d; /*Valores Hexadecimales*/
+}
+main{
+    /*background-color: rgb(107, 183, 164);*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Selector De etiqueta <p> Selecciona todos los elementos de un tipo específico.*/
+h1{ 
+    color: rgb(171, 50, 205); /*Nombres de Colores: CSS reconoce nombres de colores estándar: red, blue, black o white.*/
+    font-size: 36px; /*Define el tamaño del texto.*/
+    font-style: oblique; /*Define el estilo (normal, italic, oblique).*/
+    font-weight: bold;/*Controla el grosor del texto (normal, bold, o valores numéricos de 100 a 900).*/
+    background-color: lightblue;
+    cursor: pointer;
+}
+h2{ 
+    color: rgb(50, 84, 205); /*RGB y RGBA: define colores con valores numéricos para rojo, verde y azul, mientras que RGBA añade opacidad de 0 (transparente) a 1 (opaco).*/
+    font-size: 20;
+    background-color: rgba(255, 99, 71, 0.5);
+}
+/*Selector De Clase (.) Selecciona elementos con una clase específica.*/
+.pink{
+    color: pink;
+}
+/*Selector Universal (*) Afecta a todos los elementos de la página.*/
+*{ 
+    background-color: null;
+}
+
+.nav-list a { /*aplica estilo a cada uno de los links*/
+    text-decoration: none;
+    color: rgb(237, 9, 47);
+}
