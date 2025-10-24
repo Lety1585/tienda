@@ -1,156 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Contacto</title>
-</head>
-<body>
-  <header> 
-    <h1><img src="../img/logo-1631940572-1721181182-04dee9132a9cc735e7ad8835610e99ea1721181182.png" alt="Logo"> 
-        <nav> 
-          <ul class="nav-list">
-              <li><a href="./index.html">Inicio</a></li>
-              <li><a href="./login.html">Login</a></li>
-              <li><a href="./registro.html">Registro</a></li>
-              <li><a href="./productos.html">Productos</a></li>
-              <li><a href="./servicios.html">Servicios</a></li>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="./carrito.html">Carrito</a></li>
-          </ul>
-        </nav>
-    </h1>
-  </header>
-  <section id="contacto" class="container my-5">
-  <main>
-    <h1>Estás en la página contacto</h1>
-    <h4>Bienvenido</h4>
-    <form action="https://formspree.io/f/mjkezkvp" method="POST">
-      <fieldset>
-          <legend>Información Personal</legend>
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" autocomplete="off">
-          <label for="email">Correo Electrónico:</label>
-          <input type="email" id="email" name="email" autocomplete="on">
-      </fieldset>
-      <fieldset>
-          <legend>Motivo y Mensaje</legend>
-          <label for="motivo">Motivo:</label>
-          <select id="motivo" name="motivo"> 
-            <option value="">-- Seleccioná una opción --</option>
-            <option value="consulta">Consulta</option>
-            <option value="soporte">Soporte</option>
-            <option value="otros">Otros</option>
-          </select>
-          <label for="mensaje">Mensaje:</label> 
-          <textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea> 
-      </fieldset>
-    
-        <section>
-          <button type="submit">Enviar</button>
-          <button type="reset">Limpiar</button>
-        </section>
-    </form>
-    <div class="caja1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-    <div class="caja2"><p>Lorem </p></div>
-    <fieldset>
-        <legend>Información Personal</legend>
-        
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre">
-  
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email">
-      </fieldset>
-      <fieldset>
-          <legend>User / Pass</legend>
-          <div>
-            <label for="user">Usario:</label>
-          <input type="user" id="user">
-          </div>
-          <div>
-            <label for="pass">Password:</label>
-          <input type="password" id="pass">
-          </div>
-          <button type="submit">Enviar</button>
-          <button type="reset">Borrar</button>
-      </fieldset>
-      <div class="item">
-      <div>
-          <label for="hobbies"> Hobbies</label>
-      </div>
-      <div>
-          <label for="musica"> Musica
-              <input type="checkbox" id="musica" name="hobbies">
-          </label>
-      </div>
-      <div>
-          <label for="leer"> Leer
-              <input type="checkbox" id="leer" name="hobbies">
-          </label>
-      </div>
-      <div>
-          <label for="patin"> Patin
-              <input type="checkbox" id="patin" name="hobbies">
-          </label>
-      </div>
-      <div>
-          <label for="">
-              <input type="radio" id="" name="genre"> F
-          </label>
-      </div>
-      <div>
-          <label for=""> 
-              <input type="radio" id="" name="genre"> M
-          </label>
-      </div>
-      <div>
-          <label for=""> 
-              <input type="radio" id="" name="genre"> NC
-          </label>
-      </div>
-      </div>
-  <form>
-      <fieldset>
-        <legend>Motivo y Mensaje</legend>
-  
-        <label for="motivo">Motivo:</label>
-        <select id="motivo" name="motivo">
-          <option value="">-- Seleccioná una opción --</option>
-          <option value="consulta">Consulta</option>
-          <option value="soporte">Soporte</option>
-          <option value="otros">Otros</option>
-        </select>
-  
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea>
-      </fieldset>
-  
-      <section>
-        <button type="submit">Enviar</button>
-        <button type="reset">Limpiar</button>
-      </section>
-  </form>
-  <div class="box"></div>
-</div>
-<p></p>
-<div class="banner">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</div>
-  </main>
-</section>
-</body>
-<footer> 
-  <aside> <!--Información adicional, como anuncios o enlaces secundarios.-->
-      <p>Al navegar por este sitio aceptás el uso de cookies para agilizar tu experiencia de compra.</p> 
-  </aside>
-  <p><strong><em>Todos los derechos reservados</em></strong></p> 
-  <nav class="iconos">
-      <i class="fab fa-instagram"></i>
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-whatsapp" aria-hidden="true"></i>
-  </nav>
-</footer>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/icono.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="../css/styles.css"> 
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header> 
+            <div class="header-top">
+              <h1>
+                <img src="../img/logo.png" alt="Logo" class="logo">
+              </h1>
+              <form action="./buscar.html" method="GET" class="buscador">
+                <input type="text" name="busqueda" placeholder="Ingrese la búsqueda">
+                <button type="submit">Buscar</button>
+              </form>
+            </div>
+          
+            <nav> 
+              <ul class="nav-list">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./registro.html">Registro</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="./carrito.html">Carrito</a></li>
+              </ul>
+            </nav>
+        </header>
+        <main>
+          <section id="contacto" class="container my-5">
+            <h1>Contáctanos</h1>
+            <form action="https://formspree.io/f/mjkezkvp" method="POST" class="contact">
+              <fieldset>
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" autocomplete="off"><br>
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" autocomplete="on">
+              </fieldset>
+              <fieldset>
+                <legend>Motivo y Mensaje</legend>
+                <label for="motivo">Motivo:</label><br>
+                <select id="motivo" name="motivo"> <br>
+                  <option value="">-- Seleccioná una opción --</option><br>
+                  <option value="consulta">Consulta</option>
+                  <option value="soporte">Soporte</option>
+                  <option value="otros">Otros</option>
+                </select><br>
+                <label for="mensaje">Mensaje:</label> 
+                <textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea> 
+              </fieldset>
+              <button type="submit">Enviar</button>
+            </form> 
+          </section>
+        </main>
+    <footer> 
+      <aside> <!--Información adicional, como anuncios o enlaces secundarios.-->
+          <p>Al navegar por este sitio aceptás el uso de cookies para agilizar tu experiencia de compra.</p> 
+      </aside>
+      <p><strong><em>Todos los derechos reservados</em></strong></p> 
+      <nav class="iconos">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-whatsapp" aria-hidden="true"></i>
+      </nav>
+    </footer>
+  </body>
 </html>
