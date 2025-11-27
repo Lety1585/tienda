@@ -79,3 +79,9 @@ for (let i = 0; i < resultado.length; i++) {
 let listaProd = document.querySelector('article');
 console.log(listaProd);
 listaProd.innerText = 'xx';
+
+let alertaLimpiar = document.getElementById("vaciar");
+alertaLimpiar.addEventListener("click", function() {
+    alert("¿Estás seguro que quieres vaciar el carrito?");
+});
+
