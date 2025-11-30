@@ -181,7 +181,7 @@ nav {
     margin: 10px 0;
 }
 
-.info, .compra {
+.info, .agregar {
     background-color: #b929a6;
     color: white;
     padding: 10px 15px;
@@ -193,7 +193,7 @@ nav {
     font-weight: 700;
 }
 
-.info:hover, .compra:hover {
+.info:hover, .agregar:hover {
     background-color: #b929a6;
 }
 
@@ -467,7 +467,7 @@ color: #333;
 margin-right: 10px;
 }
 
-.compra {
+.agregar {
 background: #b929a6;
 color: #fff;
 }
